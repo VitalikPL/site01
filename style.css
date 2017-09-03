@@ -4,12 +4,13 @@
 	padding: 0;
 }
 header {
-	width: 100%;
-	height: 100%;
-	position: absolute;
+	background-image: url(snow.png); 
+	max-width: 1440px;
 	top: 0;
 	left: 0;
-	overflow: auto;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
 }
 .headd {
 	width: 296px;
@@ -27,7 +28,7 @@ header {
 	padding: 20px;
 	margin: 0;
 }
-.story {
+.str {
 	text-align: center;
 	font-size: 189px;
 	color: #eff0f1;
@@ -35,4 +36,68 @@ header {
 	margin-top: 60px;
 	font-family: Sans-Serif;
 	letter-spacing: 30px;
+}
+.fa-bars {
+	color: #939ea2;
+	top: 120px;
+	left: 8%;
+	position: relative;
+	cursor: pointer;
+}
+.travel {
+	font-size: 14px;
+	color: #bdc1c3;
+	padding-left: 8%;
+	letter-spacing: 6px;
+}
+.story {
+	width: 30%;
+	margin-left: 8%;
+	float: left;
+}
+.story p {
+	font-size: 24px;
+	color: #687378;
+	line-height: 1.5;
+}
+.story a {
+	margin: 60px 0 20px 0;
+	width: 200px;
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	background-color: #80b7b3;
+	padding: 15px 20px 15px 20px;
+	border-radius: 30px; 
+	letter-spacing: 5px;
+	box-shadow: 0px 0px 80px rgba(215,232,231,1);
+	display: block;
+}
+.story a:hover {
+	color: aqua;
+	box-shadow: 0px 0px 50px rgba(0,232,231,0.8);
+}
+.story_imgblock {
+	border: 15px solid white;
+	box-shadow: 0px 0px 100px rgba(0,0,0,0.2);
+	height: 545px;
+	width: 685px;
+	margin-left: auto;
+	margin-right: -15px;
+	float: right;
+}
+.story_img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.story_imgsmall {
+	border: 15px solid white;
+	box-shadow: 0px 0px 100px rgba(0,0,0,0.2);
+	height: 218px;
+	width: 341px;
+	background-color: #d6b29c;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 38%
 }
