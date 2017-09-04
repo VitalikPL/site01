@@ -1,16 +1,20 @@
-.body {
+* {
 	font-family: Verdana, Arial, Sans-Serif;
-	margin: 0;
 	padding: 0;
+	margin: 0;
 }
-header {
-	background-image: url(snow.png); 
+.site {
+	background-image: url(img/snow.png); 
 	max-width: 1440px;
 	top: 0;
 	left: 0;
 	overflow: hidden;
 	margin-right: auto;
 	margin-left: auto;
+}
+.imgstyle {
+	box-shadow: 0px 0px 100px rgba(0,0,0,0.2);
+	border: 15px solid white;
 }
 .headd {
 	width: 296px;
@@ -41,27 +45,35 @@ header {
 	color: #939ea2;
 	top: 120px;
 	left: 8%;
-	position: relative;
+	position: fixed;
 	cursor: pointer;
 }
 .travel {
 	font-size: 14px;
 	color: #bdc1c3;
-	padding-left: 8%;
 	letter-spacing: 6px;
+	margin: 20px 0 20px 0;
+}
+.travel1 {
+	padding-left: 8%;
+}
+.travel2 {
+  padding-top: 200px;
+  clear: both;
+  width: 100%;
+  text-align: center;
 }
 .story {
 	width: 30%;
 	margin-left: 8%;
 	float: left;
 }
-.story p {
+.textstory {
 	font-size: 24px;
 	color: #687378;
 	line-height: 1.5;
 }
-.story a {
-	margin: 60px 0 20px 0;
+.button {
 	width: 200px;
 	text-decoration: none;
 	cursor: pointer;
@@ -74,16 +86,16 @@ header {
 	box-shadow: 0px 0px 80px rgba(215,232,231,1);
 	display: block;
 }
-.story a:hover {
+.story a {
+	margin: 60px 0 20px 0;
+}
+.button:hover {
 	color: aqua;
 	box-shadow: 0px 0px 50px rgba(0,232,231,0.8);
 }
 .story_imgblock {
-	border: 15px solid white;
-	box-shadow: 0px 0px 100px rgba(0,0,0,0.2);
 	height: 545px;
 	width: 685px;
-	margin-left: auto;
 	margin-right: -15px;
 	float: right;
 }
@@ -92,12 +104,156 @@ header {
 	max-width: 100%;
 }
 .story_imgsmall {
-	border: 15px solid white;
-	box-shadow: 0px 0px 100px rgba(0,0,0,0.2);
 	height: 218px;
 	width: 341px;
 	background-color: #d6b29c;
+	position: relative;
+	margin-top: -500px;
+	margin-left: -140px;
+}
+.h1text {
+	text-align: center;
+	padding: 0 25% 0 25%;
+}
+.light-man {
+	position: relative;
+	width: 810px;
+	height: 532px;
+	left: 50%;
+	margin: 85px 0 85px -405px;
+
+}
+.lman {
+	width: 100%;
+	height: 100%;
+}
+.stext {
+	text-align: center;
+	padding: 0 22% 0 22%
+}
+.button2 {
+	margin-left: 22%;
+	margin-top: 95px;
+}
+.video {
+	width: 100%;
+	height: 506px;
+}
+.video img {
+	height: 100%;
+	width: 100%;
+	margin: 110px 0 110px 0;
+}
+.play {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	background-color: #4f6169;
+	position: relative;
+	top: -400px;
+	left: 50%;
+	margin: -50px;
+	cursor: pointer;
+}
+.play i {
+	color: white;
+	margin: 26px 26px 26px 35px;
+}
+.story_imgsmall2 {
+	height: 255px;
+	width: 400px;
+	background-color: #ced6d9;
+	margin-top: 300px;
+	margin-left: 250px;
+	float: left;
+}
+.quote {
+	margin-top: 330px;
+	width: 550px;
+	float: right;
+}
+.listtext {
+	width: 750px;
+	height: 312px;
+	background-color: white;
+	margin: 200px;
+	box-shadow: 0px 0px 100px rgba(0,0,0,0.2);
+}
+.listtext h2 {
+	padding: 6% 10% 0 10%;
+	font-style: italic;
+	font-weight: lighter;
+	line-height: 2;
+}
+.footer {
+	width: 1440px;
+	height: 632px;
+	margin-top: 700px;
+}
+.footer img {
+	width: 100%;
+	height: 100%;
+} 
+.footer1 {
+	width: 1440px;
+	height: 632px;
+}
+.nameavtor {
+	color: #687378;
+	padding: 0 10% 0 10%;
+	word-spacing: 6px;
+}
+.button3 {
+	position: relative;
+	left: 50%;
+	margin: -100px;
+	bottom: -145px;
+}
+.form {
+	height: 330px;
+	width: 676px;
+	background-color: #3c4f57;
+	position: relative;
+	left: 50%;
+	margin-left: -338px;
+	top: 1180px;
+	opacity: 0.9;
+	filter: alpha(Opacity=90);
+	text-align: center;
+}
+.textform {
 	position: absolute;
-	margin-top: 100px;
-	margin-left: 38%
+	font-size: 24px;
+	padding: 6%;
+	color: #c7cbcd;
+}
+form {
+	position: absolute;
+	width: 676px;
+}
+input {
+	border: 2px solid #627075;
+	border-radius: 30px;
+	background-color: #2a3a3f !important; 
+	height: 45px;
+	width: 230px;
+	outline: none;
+	margin: 22% 5% 0 5%;
+	font-size: 24px;
+	text-indent: 1.5em;
+	color: #bec1c2
+}
+.buttondown {
+	width: 250px;
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	background-color: #80b7b3;
+	padding: 15px 20px 15px 20px;
+	border-radius: 30px; 
+	letter-spacing: 5px;
+	display: block;
+	border: 1px solid grey;
+	margin: 5% auto;
 }
