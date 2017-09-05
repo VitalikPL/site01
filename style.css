@@ -36,16 +36,23 @@
 	text-align: center;
 	font-size: 189px;
 	color: #eff0f1;
-	margin: 0 auto;
-	margin-top: 60px;
+	margin: 60px auto;
 	font-family: Sans-Serif;
 	letter-spacing: 30px;
 }
+.fixedbar { 
+	position: fixed;
+	width: 1440px;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	height: 30px;
+	padding-left: 8%;
+	top: 130px;
+	z-index: 999;
+}
 .fa-bars {
 	color: #939ea2;
-	top: 120px;
-	left: 8%;
-	position: fixed;
 	cursor: pointer;
 }
 .travel {
@@ -97,6 +104,7 @@
 	height: 545px;
 	width: 685px;
 	margin-right: -15px;
+	margin-left: 105px;
 	float: right;
 }
 .story_img {
@@ -138,37 +146,18 @@
 .video {
 	width: 100%;
 	height: 506px;
-}
-.video img {
-	height: 100%;
-	width: 100%;
-	margin: 110px 0 110px 0;
-}
-.play {
-	border-radius: 50%;
-	height: 100px;
-	width: 100px;
-	background-color: #4f6169;
-	position: relative;
-	top: -400px;
-	left: 50%;
-	margin: -50px;
-	cursor: pointer;
-}
-.play i {
-	color: white;
-	margin: 26px 26px 26px 35px;
+	margin: 110px 0 0 0;
 }
 .story_imgsmall2 {
 	height: 255px;
 	width: 400px;
 	background-color: #ced6d9;
-	margin-top: 300px;
+	margin-top: 150px;
 	margin-left: 250px;
 	float: left;
 }
 .quote {
-	margin-top: 330px;
+	margin-top: 130px;
 	width: 550px;
 	float: right;
 }
@@ -188,7 +177,7 @@
 .footer {
 	width: 1440px;
 	height: 632px;
-	margin-top: 700px;
+	margin-top: 500px;
 }
 .footer img {
 	width: 100%;
@@ -216,7 +205,7 @@
 	position: relative;
 	left: 50%;
 	margin-left: -338px;
-	top: 1180px;
+	top: 980px;
 	opacity: 0.9;
 	filter: alpha(Opacity=90);
 	text-align: center;
